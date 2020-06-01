@@ -1,0 +1,130 @@
+.productpreview{
+  width:100%;
+}
+.productpreview > img{
+  width:100%;
+}
+.featuredTime{
+  color:white;
+  font-size:50px;
+  position:absolute;
+  top:45%;
+  left:20%;
+  text-shadow: 2px 3px 15px #eee;
+}
+.featuredHeartRate{
+  position:absolute;
+  top:50%;
+  left:290px;
+  text-align:center;
+}
+.featuredHeartRate > i{
+  font-size:80px;
+  color: #ff0000;
+  text-shadow: 2px 3px 15px #cc0000;
+  animation:beat 1s infinite;
+}
+@keyframes beat{
+  0%{
+    transform:scale(1,1);
+  }
+  50%{
+    transform:scale(1.2,1.2);
+  }
+  100%{
+    transform:scale(1,1);
+  }
+}
+.featuredHeartRate > p{
+  font-size:50px;
+  color:white;
+  text-shadow: 2px 3px 15px #eee;
+  margin:5px;
+}
+.featuredCamera{
+  position:absolute;
+  top:50%;
+  left:290px;
+  text-align:center;
+}
+.featuredCamera > i{
+  font-size:80px;
+  color:#fff;
+  text-shadow: 2px 3px 15px #ccc;
+  animation:blink 2s 2s alternate infinite;
+}
+@keyframes blink {
+  1%,5%{
+    transform:scale(1.2,1.2);
+    opacity: 0;
+  }
+  10%,100%{
+    transform:scale(1,1);
+    opacity: 1;
+  }
+}
+.featuredCall{
+  position:absolute;
+  top:45%;
+  left:17%;
+  text-align:center;
+}
+.featuredCall > p,.featuredFindPhone >p {
+  font-size:36px;
+  color:white;
+  text-shadow: 2px 3px 15px #eee;
+  margin:5px;
+}
+.featuredCall > i{
+  margin-top:40px;
+  font-size:40px;
+  color: #fff;
+  padding:10px;
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+}
+.featuredCall > .decline{
+  margin-right:80px;
+  background-color: #f00;
+  transform: rotate(135deg);
+  box-shadow: 0 0 5px 5px #ff4d4d;
+}
+.featuredCall > .accept{
+background-color: #00b300;
+animation:  pickcall .5s infinite;
+ box-shadow: 0 0 5px 5px #248f24;
+}
+@keyframes pickcall {
+  50%{
+    box-shadow: 0 0 5px 8px #248f24;
+
+  }
+}
+
+.featuredFindPhone{
+  position:absolute;
+  top:40%;
+  left:20%;
+  text-align:center;
+}
+.featuredFindPhone >p {
+  transform: translate(-30px,0px);
+}
+.featuredFindPhone > .mobile{
+  font-size:200px;
+  color:white;
+}
+.featuredFindPhone > .search{
+  font-size:100px;
+  color:white;
+  transform: translate(-50px,-20px);
+  animation: search 2s infinite;
+}
+@keyframes search {
+
+  50%{
+    transform:rotate(10deg);
+  }
+
+}

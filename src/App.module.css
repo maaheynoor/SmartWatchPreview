@@ -1,0 +1,17 @@
+.topbar{
+  font-size:40px;
+  font-weight: 600;
+  background-color:#282c34;
+  color:white;
+  text-align:center;
+}
+.main{
+  width:100%;
+  display:flex;
+}
+.productpreview{
+  width:50%;
+}
+.productdata{
+  width:50%;
+}
