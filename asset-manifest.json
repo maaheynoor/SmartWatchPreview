@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SmartWatchPreview/static/css/main.0be3dc10.chunk.css",
+    "main.js": "/SmartWatchPreview/static/js/main.c93ee08f.chunk.js",
+    "main.js.map": "/SmartWatchPreview/static/js/main.c93ee08f.chunk.js.map",
+    "runtime-main.js": "/SmartWatchPreview/static/js/runtime-main.19a23903.js",
+    "runtime-main.js.map": "/SmartWatchPreview/static/js/runtime-main.19a23903.js.map",
+    "static/js/2.09aead01.chunk.js": "/SmartWatchPreview/static/js/2.09aead01.chunk.js",
+    "static/js/2.09aead01.chunk.js.map": "/SmartWatchPreview/static/js/2.09aead01.chunk.js.map",
+    "index.html": "/SmartWatchPreview/index.html",
+    "precache-manifest.bf5fb2896aae53635a5c1ad14a4e1b60.js": "/SmartWatchPreview/precache-manifest.bf5fb2896aae53635a5c1ad14a4e1b60.js",
+    "service-worker.js": "/SmartWatchPreview/service-worker.js",
+    "static/css/main.0be3dc10.chunk.css.map": "/SmartWatchPreview/static/css/main.0be3dc10.chunk.css.map",
+    "static/js/2.09aead01.chunk.js.LICENSE.txt": "/SmartWatchPreview/static/js/2.09aead01.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19a23903.js",
+    "static/js/2.09aead01.chunk.js",
+    "static/css/main.0be3dc10.chunk.css",
+    "static/js/main.c93ee08f.chunk.js"
+  ]
+}
